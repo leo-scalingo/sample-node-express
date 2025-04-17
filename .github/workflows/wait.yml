@@ -5,7 +5,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Sleep for 80 seconds
+    - name: Sleep for 10 seconds
       uses: jakejarvis/wait-action@master
       with:
-        time: '80s'
+        time: '10s'
